@@ -60,7 +60,7 @@ CORS_ALLOWED_ORIGINS = [
     ]
 
 CORS_ORIGIN_WHITELIST = (
-  'http://localhost:8000/api/weather',
+  'https://weatherapp-server2.onrender.com/api/weather',
 )
 
 ROOT_URLCONF = 'weather_server.urls'
